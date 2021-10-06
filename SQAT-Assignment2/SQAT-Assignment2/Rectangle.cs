@@ -19,7 +19,7 @@ namespace SQAT_Assignment2
 
         public Rectangle(int l , int w)
         {
-            length =l;
+            length = l;
             width = w;
         }
 
