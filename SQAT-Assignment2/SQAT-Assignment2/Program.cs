@@ -19,8 +19,34 @@ namespace SQAT_Assignment2
             
             Console.Write("Enter the length of the rectangle : ");
             int length = Convert.ToInt32(Console.ReadLine());
+            if(length < 0)
+            {
+                Console.Write("Value not in range 0-50");
+                Console.Write("Enter the length of the rectangle:");
+                length = Convert.ToInt32(Console.ReadLine());
+            
+            }
+            else if (length > 50)
+            {
+                Console.Write("Value not in range 0-50");
+                Console.Write("Enter the length of the rectangle:");
+                length = Convert.ToInt32(Console.ReadLine());
+            }
+
             Console.Write("Enter the width of the rectangle : ");
             int width = Convert.ToInt32(Console.ReadLine());
+            if (width < 0)
+            {
+                Console.Write("Value not in range 0-50");
+                Console.Write("Enter the width of the rectangle:");
+                width = Convert.ToInt32(Console.ReadLine());
+            }
+            else if (width > 50)
+            {
+                Console.Write("Value not in range 0-50");
+                Console.Write("Enter the width of the rectangle:");
+                width = Convert.ToInt32(Console.ReadLine());
+            }
 
             Rectangle rect = new Rectangle(length,width);
             Console.WriteLine("Perimeter of rectangle is " + rect.GetPerimeter());
