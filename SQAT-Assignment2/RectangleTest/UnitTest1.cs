@@ -12,9 +12,8 @@ namespace RectangleDefaultConstructor
         {
             
             var rect = new Rectangle();
-            
 
-            Assert.AreEqual(1 , rect.GetLength());
+            Assert.AreEqual(1, rect.GetLength());
             Assert.AreEqual(1 , rect.GetWidth());
 
         }

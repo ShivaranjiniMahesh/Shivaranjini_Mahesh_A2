@@ -21,14 +21,14 @@ namespace SQAT_Assignment2
             int length = Convert.ToInt32(Console.ReadLine());
             if(length < 0)
             {
-                Console.Write("Value not in range 0-50");
-                Console.Write("Enter the length of the rectangle:");
+                Console.WriteLine("Value not in range 0-50");
+                Console.Write("Enter the length of the rectangle: ");
                 length = Convert.ToInt32(Console.ReadLine());
             
             }
-            else if (length > 50)
+             if (length >= 50)
             {
-                Console.Write("Value not in range 0-50");
+                Console.WriteLine("Value not in range 0-50");
                 Console.Write("Enter the length of the rectangle:");
                 length = Convert.ToInt32(Console.ReadLine());
             }
@@ -37,13 +37,13 @@ namespace SQAT_Assignment2
             int width = Convert.ToInt32(Console.ReadLine());
             if (width < 0)
             {
-                Console.Write("Value not in range 0-50");
+                Console.WriteLine("Value not in range 0-50");
                 Console.Write("Enter the width of the rectangle:");
                 width = Convert.ToInt32(Console.ReadLine());
             }
-            else if (width > 50)
+            if (width >= 50)
             {
-                Console.Write("Value not in range 0-50");
+                Console.WriteLine("Value not in range 0-50");
                 Console.Write("Enter the width of the rectangle:");
                 width = Convert.ToInt32(Console.ReadLine());
             }
