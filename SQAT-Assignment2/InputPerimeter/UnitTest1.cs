@@ -9,12 +9,12 @@ namespace InputPerimeter
         [TestMethod]
         public void TestMethod1()
         {
-            int length = 5;
-            int width = 10;
+            int length = 20;
+            int width = 30;
             var rect = new Rectangle();
             rect.SetLength(length);
             rect.SetWidth(width);
-            Assert.AreEqual(30, rect.GetPerimeter());
+            Assert.AreEqual(100, rect.GetPerimeter());
 
         }
     }

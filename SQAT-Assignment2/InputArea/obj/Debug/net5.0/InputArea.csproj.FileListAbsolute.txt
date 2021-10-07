@@ -98,3 +98,4 @@ C:\Users\Shivaranjini Mahesh\source\repos\Shivaranjini_Mahesh_A2\SQAT-Assignment
 C:\Users\Shivaranjini Mahesh\source\repos\Shivaranjini_Mahesh_A2\SQAT-Assignment2\InputArea\obj\Debug\net5.0\ref\InputArea.dll
 C:\Users\Shivaranjini Mahesh\source\repos\Shivaranjini_Mahesh_A2\SQAT-Assignment2\InputArea\obj\Debug\net5.0\InputArea.pdb
 C:\Users\Shivaranjini Mahesh\source\repos\Shivaranjini_Mahesh_A2\SQAT-Assignment2\InputArea\obj\Debug\net5.0\InputArea.genruntimeconfig.cache
+C:\Users\Shivaranjini Mahesh\source\repos\Shivaranjini_Mahesh_A2\SQAT-Assignment2\InputArea\obj\Debug\net5.0\InputArea.csprojAssemblyReference.cache
